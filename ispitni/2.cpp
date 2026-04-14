@@ -62,7 +62,6 @@ public:
         return newSalary;
     }
 
-    //General Doctor: John Smith CODE:236XY@2B Salary: 75330
     void print() override {
         cout << "General Doctor: " << name << " " << surname << " CODE:" << code << " Salary: " << calculateSalary() <<
              endl;
